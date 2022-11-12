@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import AboutUs from "./About";
 import Login from './Login';
 import Contact from './Contact';
-import Register from "./Register";
+import JoinWithUs from "./JoinWithUs";
 import {
   BrowserRouter,
   Routes,
@@ -23,7 +23,7 @@ root.render(
     <Route path='/about' element = {<AboutUs/>}/>
     <Route path='/contact' element = {<Contact/>}/>
     <Route path='/login' element = {<Login/>}/>
-    <Route path = "/register" element = {<Register/>}/>
+    <Route path = "/joinwithus" element = {<JoinWithUs/>}/>
   </Routes>
   </BrowserRouter>
 );

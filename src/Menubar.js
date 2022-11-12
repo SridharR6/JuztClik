@@ -32,7 +32,7 @@ function Menubar(){
                             <div className="menus"><a href = "/about" onClick={()=>navigate('/about')}>About Us</a></div>
                             <div className="menus"><a href = "/contact" onClick={()=>navigate('/contact')}>Contact</a></div>
                             <div className="menus"><a href = "/login" onClick={()=>navigate('/login')}>Login/SignUp</a></div>
-                            <div className="menus"><a href = "/register" onClick={()=>navigate('/register')}>Register</a></div>
+                            <div className="menus"><a href = "/joinwithus" onClick={()=>navigate('/joinwithus')}>Join WithUs</a></div>
                             
                         </div>
                     </COffcanvasBody>
