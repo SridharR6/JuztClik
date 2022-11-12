@@ -18,7 +18,7 @@ function Menubar(){
         <>
             <Navbar bg = "dark" variant = "dark" expand = "lg" fixed="top">
                 <Container>
-                    <Navbar.Brand href = "#">JuztClick</Navbar.Brand>
+                    <Navbar.Brand href = "#">JuztClik</Navbar.Brand>
                 
                     <CButton onClick={() => setVisible(true)}><IoMenu style={{fontSize:"1.7rem",}}/></CButton>
                     <COffcanvas placement="end" style={{backgroundColor:"#222222",width:"16rem"}}  visible={visible} onHide={() => setVisible(false)}>
