@@ -4,6 +4,8 @@ function Contact(){
     return(
         <>
         <Menubar/>
+        <br></br><br></br>
+        
         </>
     );
 }

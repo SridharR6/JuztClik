@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Home from './Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,6 +8,7 @@ import AboutUs from "./About";
 import Login from './Login';
 import Contact from './Contact';
 import JoinWithUs from "./JoinWithUs";
+import Signup from "./Signup";
 import {
   BrowserRouter,
   Routes,
@@ -23,6 +23,7 @@ root.render(
     <Route path='/about' element = {<AboutUs/>}/>
     <Route path='/contact' element = {<Contact/>}/>
     <Route path='/login' element = {<Login/>}/>
+    <Route path='/signup' element = {<Signup/>}/>
     <Route path = "/joinwithus" element = {<JoinWithUs/>}/>
   </Routes>
   </BrowserRouter>

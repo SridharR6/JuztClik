@@ -31,7 +31,8 @@ function Menubar(){
                             <div className="menus"><a href = "/" onClick={()=>navigate('/')}>Home</a></div>
                             <div className="menus"><a href = "/about" onClick={()=>navigate('/about')}>About Us</a></div>
                             <div className="menus"><a href = "/contact" onClick={()=>navigate('/contact')}>Contact</a></div>
-                            <div className="menus"><a href = "/login" onClick={()=>navigate('/login')}>Login/SignUp</a></div>
+                            <div className="menus"><a href = "/login" onClick={()=>navigate('/login')}>Login</a></div>
+                            <div className="menus"><a href = "/signup" onClick={()=>navigate('/signup')}>SignUp</a></div>
                             <div className="menus"><a href = "/joinwithus" onClick={()=>navigate('/joinwithus')}>Join WithUs</a></div>
                             
                         </div>
