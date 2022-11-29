@@ -4,7 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Home from './Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AboutUs from "./About";
+import About from "./About";
 import Login from './Login';
 import Contact from './Contact';
 import JoinWithUs from "./JoinWithUs";
@@ -20,7 +20,7 @@ root.render(
   <BrowserRouter>
   <Routes>
     <Route path='/' element = {<Home/>}/>
-    <Route path='/about' element = {<AboutUs/>}/>
+    <Route path='/about' element = {<About/>}/>
     <Route path='/contact' element = {<Contact/>}/>
     <Route path='/login' element = {<Login/>}/>
     <Route path='/signup' element = {<Signup/>}/>

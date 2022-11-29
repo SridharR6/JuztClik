@@ -44,7 +44,9 @@ function Form(){
           
           <TextField name  = "pwd" value = {input.pwd} margin = "normal" type = {'password'} variant = "outlined" placeholder = "Password" onChange = {handleChange} required/>
           
-          <Button onClick={()=>navigate("/")} sx = {{marginTop:3, borderRadius:3}} variant = "contained" color = "secondary">Login</Button>
+          <Button onClick={()=>{
+            alert("You have logged in to your account successfully.....")
+            navigate("/")}} sx = {{marginTop:3, borderRadius:3}} variant = "contained" color = "secondary">Login</Button>
           <Button onClick = {()=>navigate("/signup")} sx = {{marginTop:3, borderRadius:3}} variant = "outlined" color = "secondary">Change To SignUp</Button>
 
 

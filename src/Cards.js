@@ -1,6 +1,7 @@
 import { Container,Card,Row,Col,Image} from "react-bootstrap";
 import './cards.css';
-
+import plumber from "./plumber.png";
+import electrician from "./electrician.png";
 function Cards(){
     return( 
         <>
@@ -11,34 +12,35 @@ function Cards(){
                         <Card>
                             <div class="content">
                                     <div class="imgBx">
-                                        <a href="#"><Image  src="images/electrical.png" alt="pic" rounded />;</a>
-                                        
+                                        <a href=""><Image  src={electrician} alt="pic" rounded /></a>
+                                         
                                     </div>
                                     <div class="contentBx">
-                                        <h3>Electrisian  </h3>
+                                        <h3>Electrician  </h3>
                                         <br></br>
                                         <br></br>
                                     </div>
                             </div>
                             <ul class="sci">
                             <li>
-                                <a href="">Clike to Register</a>
+                                <a href="" style={{color:"black"}}>Click to Register</a>
                             </li>
                         </ul>
                         </Card>
                         <Card>
                             <div class="content">
                                     <div class="imgBx">
-                                        <a href="#"><Image  src="images/constraction.png" alt="pic"></Image></a>
-                                        
+                                        <a href="#"><Image  src={plumber} alt="pic"></Image></a>
                                     </div>
                                     <div class="contentBx">
-                                        <h3>Electrisian <br></br></h3>
+                                        <h3>Plumber</h3>
+                                        <br></br>
+                                        <br></br>
                                     </div>
                             </div>
                             <ul class="sci">
                             <li>
-                                <a href="">Clike to Register</a>
+                                <a href="" style={{color:"black"}}>Click to Register</a>
                             </li>
                         </ul>
                         </Card>
@@ -49,12 +51,15 @@ function Cards(){
                                         
                                     </div>
                                     <div class="contentBx">
-                                        <h3>Electrisian <br></br></h3>
+                                        <h3>Carpenter</h3>
+                                        <br></br>
+                                        <br></br>
                                     </div>
                             </div>
-                            <ul class="sci">
+
+                            <ul class="sci" >
                             <li>
-                                <a href="">Clike to Register</a>
+                                <a href="#" style={{color:"black"}}>Click to Register</a>
                             </li>
                         </ul>
                         </Card>
@@ -65,12 +70,14 @@ function Cards(){
                                         
                                     </div>
                                     <div class="contentBx">
-                                        <h3>Electrisian <br></br></h3>
+                                        <h3>Mechanic</h3>
+                                        <br></br>
+                                        <br></br>
                                     </div>
                             </div>
                             <ul class="sci">
                             <li>
-                                <a href="">Clike to Register</a>
+                                <a href="" style={{color:"black"}}>Click to Register</a>
                             </li>
                         </ul>
                         </Card>
@@ -81,12 +88,14 @@ function Cards(){
                                         
                                     </div>
                                     <div class="contentBx">
-                                        <h3>Electrisian <br></br> </h3>
+                                        <h3>Gardener </h3>
+                                        <br></br>
+                                        <br></br>
                                     </div>
                             </div>
                             <ul class="sci">
                             <li>
-                                <a href="">Clike to Register</a>
+                                <a href="" style={{color:"black"}}>Click to Register</a>
                             </li>
                         </ul>
                         </Card>
@@ -97,12 +106,14 @@ function Cards(){
                                         
                                     </div>
                                     <div class="contentBx">
-                                        <h3>Electrisian <br></br></h3>
+                                        <h3>House Cleaning </h3>
+                                        <br></br>
+                                        <br></br>
                                     </div>
                             </div>
                             <ul class="sci">
                             <li>
-                                <a href="">Clike to Register</a>
+                                <a href="" style={{color:"black"}}>Click to Register</a>
                             </li>
                         </ul>
                         </Card>
@@ -113,12 +124,14 @@ function Cards(){
                                         
                                     </div>
                                     <div class="contentBx">
-                                        <h3>Electrisian <br></br></h3>
+                                        <h3>Laundry  services</h3>
+                                        <br></br>
+                                        <br></br>
                                     </div>
                             </div>
                             <ul class="sci">
                             <li>
-                                <a href="">Clike to Register</a>
+                                <a href="" style={{color:"black"}}>Click to Register</a>
                             </li>
                         </ul>
                         </Card>
@@ -129,12 +142,14 @@ function Cards(){
                                         
                                     </div>
                                     <div class="contentBx">
-                                        <h3>plumber <br></br></h3>
+                                        <h3>Home saloon </h3>
+                                        <br></br>
+                                        <br></br>
                                     </div>
                             </div>
                             <ul class="sci">
                             <li>
-                                <a href="">Clike to Register</a>
+                                <a href="" style={{color:"black"}}>Click to Register</a>
                             </li>
                         </ul>
                         </Card>

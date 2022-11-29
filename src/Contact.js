@@ -2,7 +2,7 @@ import Menubar from "./Menubar";
 import {Box,Button,Typography,TextField, inputClasses} from "@mui/material";
 import { Row,Col} from "react-bootstrap";
 import "./Contact.css";
-import Brandlogo from "E:/justclick/jc/src/contactus.gif";
+import Brandlogo from "./contactus.gif";
 import { useNavigate } from "react-router-dom";
 function Contact(){
     const navigate = useNavigate();
@@ -32,7 +32,9 @@ function Contact(){
                 <TextField placeholder = "help us to develop" margin = "normal"/><br></br>
                 </Col>
                 <Col>
-                <Button onClick={()=>navigate("/")} sx = {{marginTop:3, borderRadius:3}} variant = "contained" color = "secondary">Submit</Button>
+                <Button onClick={()=>{
+                    alert("your query has been submitted successfully....")
+                    navigate("/")}} sx = {{marginTop:3, borderRadius:3}} variant = "contained" color = "secondary">Submit</Button>
                 </Col>
                 
             </Row>

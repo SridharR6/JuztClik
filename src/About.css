@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+
+   /* .collapsible{
+        
+        border: 2px outset red;
+        width:350px;
+    } */
+.collapsible .content {
+    
+    background-color: #e00f0f;
+    border-radius: 10px
+    
+}
+.collapsible .header {
+    text-align: center;
+    background-color: #4c82d3;
+    border-radius: 2px;
+}
+.collapsible .header:hover{
+    transform: scale(1.05);
+    background-color:#367ce6;
+} 
+.card1{
+    padding: 20px;
+    background-color: rgb(231, 58, 58);
+}
+.collapsible .header .vw{
+    float: right;
+}
+.head{
+    color: white;
+    font-family: 'Signika', sans-serif;
+}
+.para{
+    padding: 5%;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-size:120%;
+} 
+.image{
+    padding-top: 5%;
+    height: 90%;
+    width: 80%;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
