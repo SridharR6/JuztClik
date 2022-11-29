@@ -4,10 +4,16 @@ import { Row ,Col, Card , Button,Image, Container} from 'react-bootstrap';
 import './About.css';
 import click from "./click.png";
 import Menubar from './Menubar';
+import plumber from "./plumber.png";
+import electrician from "./electrician.png";
+import homesaloon from "./homesaloon.png";
+import { useNavigate } from 'react-router-dom';
+
 function About() {
     const config = {
         duration: 1000
     };
+    const navigate = useNavigate();
     const { getCollapseProps, getToggleProps, isExpanded } = useCollapse(config);
 return (
     <div>
@@ -41,41 +47,44 @@ return (
                             <Row>
                                 <Col md = {4}>
                                     <Card style={{ width: '18rem',backgroundColor:'black',justifyContent:'center', alignItems:'center'}}>
-                                    <Card.Img variant="top" src='images/plumber.png' />
+                                    <Card.Img variant="top" src={plumber} />
                                     <Card.Body>
                                         <Card.Title style={{color:'white'}}>Plumber</Card.Title>
                                         <Card.Text style={{color:'white'}}>
                                             He is a Working Man for Your Needs
                                         </Card.Text>
-                                        <Button variant="primary">Click To Register</Button>
+                                        <Button variant="primary" onClick={()=>navigate('/plumsub')}>Click To Register</Button>
                                     </Card.Body>
                                     </Card>
                                 </Col>
                                 <Col md={4} >
                                     <Card style={{ width: '18rem',backgroundColor:'black',justifyContent:'center', alignItemCenter:'center'}}>
-                                    <Card.Img variant="top" src='images/plumber.png' />
+                                    <Card.Img variant="top" src={electrician} />
                                     <Card.Body>
-                                        <Card.Title style={{color:'white'}}>Plumber</Card.Title>
+                                        <Card.Title style={{color:'white'}}>Electrician</Card.Title>
                                         <Card.Text style={{color:'white'}}>
                                             He is a Working Man for Your Needs
                                         </Card.Text>
-                                        <Button variant="primary">Click To Register</Button>
+                                        <Button variant="primary" onClick={()=>navigate('/elecsub')}>Click To Register</Button>
                                     </Card.Body>
                                     </Card>
                                 </Col>
                                 <Col md={4} >
                                     <Card style={{ width: '18rem',backgroundColor:'black',justifyContent:'center', alignItemCenter:'center'}}>
-                                    <Card.Img variant="top" src='images/plumber.png' />
+                                    <Card.Img variant="top" src={homesaloon} />
                                     <Card.Body>
-                                        <Card.Title style={{color:'white'}}>Plumber</Card.Title>
+                                        <Card.Title style={{color:'white'}}>Home saloon</Card.Title>
                                         <Card.Text style={{color:'white'}}>
                                             He is a Working Man for Your Needs
                                         </Card.Text>
-                                        <Button variant="primary">Click To Register</Button>
+                                        <Button variant="primary" onClick={()=>navigate('/hsalsub')}>Click To Register</Button>
                                     </Card.Body>
                                     </Card>
                                 </Col>
                            </Row> 
+                           <center>
+                           <Button variant = "light" onClick={()=>navigate('/')}>Click to see all</Button>
+                           </center>
                         </div>
                         <br/><br/>
                     </div>
