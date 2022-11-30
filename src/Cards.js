@@ -34,7 +34,7 @@ function Cards(){
                             </div>
                             <ul class="sci">
                             <li>
-                                <a href = "/elecsub" onClick={()=>navigate('/elecsub')} style={{color:"black"}}><u><b>Click to Register</b></u></a>
+                                <a href = "/elecsub" onClick={()=>navigate('/elecsub')} style={{color:"black"}}><u><b>Click to Hire</b></u></a>
                             </li>
                         </ul>
                         </Card>
@@ -51,7 +51,7 @@ function Cards(){
                             </div>
                             <ul class="sci">
                             <li>
-                                <a href = "/plumsub" onClick={()=>navigate('/plumsub')} style={{color:"black"}}><u><b>Click to Register</b></u></a>
+                                <a href = "/plumsub" onClick={()=>navigate('/plumsub')} style={{color:"black"}}><u><b>Click to Hire</b></u></a>
                             </li>
                         </ul>
                         </Card>
@@ -70,7 +70,7 @@ function Cards(){
 
                             <ul class="sci" >
                             <li>
-                                <a href = "/carpsub" onClick={()=>navigate('/carpsub')} style={{color:"black"}}><u><b>Click to Register</b></u></a>
+                                <a href = "/carpsub" onClick={()=>navigate('/carpsub')} style={{color:"black"}}><u><b>Click to Hire</b></u></a>
                             </li>
                         </ul>
                         </Card>
@@ -88,7 +88,7 @@ function Cards(){
                             </div>
                             <ul class="sci">
                             <li>
-                                <a href = "/mechsub" onClick={()=>navigate('/mechsub')} style={{color:"black"}}><u><b>Click to Register</b></u></a>
+                                <a href = "/mechsub" onClick={()=>navigate('/mechsub')} style={{color:"black"}}><u><b>Click to Hire</b></u></a>
                             </li>
                         </ul>
                         </Card>
@@ -106,7 +106,7 @@ function Cards(){
                             </div>
                             <ul class="sci">
                             <li>
-                                <a href = "/gardsub" onClick={()=>navigate('/gardsub')} style={{color:"black"}}><u><b>Click to Register</b></u></a>
+                                <a href = "/gardsub" onClick={()=>navigate('/gardsub')} style={{color:"black"}}><u><b>Click to Hire</b></u></a>
                             </li>
                         </ul>
                         </Card>
@@ -124,7 +124,7 @@ function Cards(){
                             </div>
                             <ul class="sci">
                             <li>
-                                <a href = "/hcleansub" onClick={()=>navigate('/hcleansub')} style={{color:"black"}}><u><b>Click to Register</b></u></a>
+                                <a href = "/hcleansub" onClick={()=>navigate('/hcleansub')} style={{color:"black"}}><u><b>Click to Hire</b></u></a>
                             </li>
                         </ul>
                         </Card>
@@ -142,7 +142,7 @@ function Cards(){
                             </div>
                             <ul class="sci">
                             <li>
-                                <a href = "/physiosub" onClick={()=>navigate('/physiosub')} style={{color:"black"}}><u><b>Click to Register</b></u></a>
+                                <a href = "/physiosub" onClick={()=>navigate('/physiosub')} style={{color:"black"}}><u><b>Click to Hire</b></u></a>
                             </li>
                         </ul>
                         </Card>
@@ -160,7 +160,7 @@ function Cards(){
                             </div>
                             <ul class="sci">
                             <li>
-                                <a href = "/hsalsub" onClick={()=>navigate('/hsalsub')} style={{color:"black"}}><u><b>Click to Register</b></u></a>
+                                <a href = "/hsalsub" onClick={()=>navigate('/hsalsub')} style={{color:"black"}}><u><b>Click to Hire</b></u></a>
                             </li>
                         </ul>
                         </Card>
