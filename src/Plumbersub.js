@@ -1,17 +1,122 @@
-import { Container } from "react-bootstrap";
+import { Container,Row,Col, Button } from "react-bootstrap";
 import Menubar from "./Menubar";
 import "./Labours.css";
+import { useNavigate } from "react-router-dom";
 function Plumbersub(){
+    const navigate = useNavigate();
     return(
         <>
         <Menubar/>
         <br></br><br></br><br></br>
+        <center><h2 style={{fontFamily:"Times New Roman"}}><b><u>Available Plumbers</u></b></h2></center>
+        <br></br>
+
         <Container>
-            <div className="full">
-                <div className="sub">name</div>
-                <div className="sub">exp</div>
-                <div className="sub1">button</div>
-            </div>
+            <Row className="full">
+                <Col xs = {6} md = {5}className="sub">
+                    Name: Sridhar <br></br>
+                    Mob : 9876543210 <br></br>
+                    City: Erode
+                </Col>
+                <Col className="sub" xs = {6} md = {5}>
+                    Experience: 5yrs <br></br>
+                    Ratings(5): ⭐⭐⭐⭐⭐<br></br>
+                    Other-info: Home specialist
+                </Col>
+                <Col className="sub1" xs = {12} md = {2}>
+                    <Button variant = "dark" onClick={()=>navigate("/query")}> Book Now</Button>
+                </Col>
+            </Row>
+        </Container>
+
+        <Container>
+            <Row className="full">
+                <Col xs = {6} md = {5}className="sub">
+                    Name: Subash <br></br>
+                    Mob : 9876543210 <br></br>
+                    City: Erode
+                </Col>
+                <Col className="sub" xs = {6} md = {5}>
+                    Experience: 5yrs <br></br>
+                    Ratings(5): ⭐⭐⭐⭐⭐<br></br>
+                    Other-info: Wiring specialist
+                </Col>
+                <Col className="sub1" xs = {12} md = {2}>
+                    <Button variant = "dark" onClick={()=>navigate("/query")}> Book Now</Button>
+                </Col>
+            </Row>
+        </Container>
+
+        <Container>
+            <Row className="full">
+                <Col xs = {6} md = {5}className="sub">
+                    Name: Vishnu <br></br>
+                    Mob : 9876543210 <br></br>
+                    City: Erode
+                </Col>
+                <Col className="sub" xs = {6} md = {5}>
+                    Experience: 5yrs <br></br>
+                    Ratings(5): ⭐⭐⭐⭐⭐<br></br>
+                    Other-info: Fixing specialist
+                </Col>
+                <Col className="sub1" xs = {12} md = {2}>
+                    <Button variant = "dark" onClick={()=>navigate("/query")}> Book Now</Button>
+                </Col>
+            </Row>
+        </Container>
+
+        <Container>
+            <Row className="full">
+                <Col xs = {6} md = {5}className="sub">
+                    Name: Sibiraj <br></br>
+                    Mob : 9876543210 <br></br>
+                    City: Erode
+                </Col>
+                <Col className="sub" xs = {6} md = {5}>
+                    Experience: 5yrs <br></br>
+                    Ratings(5): ⭐⭐⭐⭐⭐<br></br>
+                    Other-info: Decor Lights man
+                </Col>
+                <Col className="sub1" xs = {12} md = {2}>
+                    <Button variant = "dark" onClick={()=>navigate("/query")}> Book Now</Button>
+                </Col>
+            </Row>
+        </Container>
+
+        <Container>
+            <Row className="full">
+                <Col xs = {6} md = {5}className="sub">
+                    Name: SK kumar <br></br>
+                    Mob : 9876543210 <br></br>
+                    City: Erode
+                </Col>
+                <Col className="sub" xs = {6} md = {5}>
+                    Experience: 5yrs <br></br>
+                    Ratings(5): ⭐⭐⭐⭐⭐<br></br>
+                    Other-info: Designer home specialist
+                </Col>
+                <Col className="sub1" xs = {12} md = {2}>
+                    <Button variant = "dark" onClick={()=>navigate("/query")}> Book Now</Button>
+                </Col>
+            </Row>
+        </Container>
+
+        <Container>
+            <Row className="full">
+                <Col xs = {6} md = {5}className="sub">
+                    Name: Abcde <br></br>
+                    Mob : 9876543210 <br></br>
+                    City: Erode
+                </Col>
+                <Col className="sub" xs = {6} md = {5}>
+                    Experience: 5yrs <br></br>
+                    Ratings(5): ⭐⭐⭐⭐⭐<br></br>
+                    Other-info: Home specialist
+                </Col>
+                <Col className="sub1" xs = {12} md = {2}>
+                    <Button variant = "dark" onClick={()=>navigate("/query")}> Book Now</Button>
+                </Col>
+            </Row>
         </Container>
         </>
     )
@@ -19,82 +124,4 @@ function Plumbersub(){
 export default Plumbersub;
 
 
-// import './Hori.css';
-// import { Row ,Col, Container, Button} from 'react-bootstrap';
-// function Hori(){
-//     return(
-//         <>
-//         <Container>
-//             <div className="head">
-//                 <Row >
-//                     <Col md={5} id="sim">
-//                         <div className='fonts'>
-//                         <span style={{color:'blue',fontFamily:'cursive',fontSize:'20px'}}>Name : </span>Santhosh Kumar<br></br>
-//                         <span style={{color:'blue',fontFamily:'cursive',fontSize:'20px'}}>PhoneNum : </span>8787878787<br></br>
-//                         <span style={{color:'blue',fontFamily:'cursive',fontSize:'20px'}}>City :</span> Salem
-//                         </div>
-//                     </Col>
-//                     <Col md={5} id="sim2" >
-//                         <div className='fonts'>
-//                             <span style={{color:'blue',fontFamily:'cursive',fontSize:'20px'}}>Rating : </span> ⭐⭐⭐⭐⭐ <br></br>
-//                             <span style={{color:'blue',fontFamily:'cursive',fontSize:'20px'}}>Type : </span> Electrical field<br></br>
-//                             <span style={{color:'blue',fontFamily:'cursive',fontSize:'20px'}}>Experience : </span>2 yrs
-//                         </div>
-//                     </Col>
-//                     <Col md={2}>
-//                         <div className='btn1'>
-//                         <Button id="btn2" className='btn-lg btn-success'>Book</Button>
-//                         </div>
-//                     </Col>
-//                 </Row>
-//             </div>
-//         </Container>
-//         </>
-//     );
-// }
-// export default Hori;
 
-
-
-
-// //css Hori.css
-
-
-// .head{
-//     background-color: rgba(0, 0, 0, 0.048);
-//     border-radius: 10px;
-//     border: 2px brown outset;
-//     padding: 10px;
-//     padding-left: 20px;
-// }
-// .fonts{
-//     text-align: justify;
-//     font-weight:500;
-//     text-align: center;
-    
-    
-// }
-// #sim{
-//     border:2px  rgba(1, 250, 250, 0.308) outset;
-//     background-color: rgba(8, 105, 105, 0.308);
-//     border-radius: 12px;
-//     margin-left: px;
-// }
-// #sim2{
-//     border: 2px  rgba(2, 255, 99, 0.24) outset ;
-//     background-color: rgba(17, 109, 52, 0.24);
-//     border-radius: 12px;
-//     margin-left: px;
-// }
-
-// #btn2{
-//     padding-bottom: 30px;
-//     text-align: center;
-//     align-items: center;
-//     justify-content:center;
-// }
-// .btn1{
-//     text-align: center;
-//     align-items: center;
-//     justify-content: center;
-// }

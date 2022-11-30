@@ -17,6 +17,7 @@ import Gardenersub from './Gardenersub';
 import Housecleaningsub from './Housecleaningsub';
 import Physiotherapistsub from './Physiotherapistsub';
 import Plumbersub from './Plumbersub';
+import Query from "./Query";
 import {
   BrowserRouter,
   Routes,
@@ -41,6 +42,8 @@ root.render(
     <Route path = "/physiosub" element = {<Physiotherapistsub/>}/>
     <Route path = "/plumsub" element = {<Plumbersub/>}/>
     <Route path = "/gardsub" element = {<Gardenersub/>}/>
+    <Route path = "/query" element = {<Query/>}/>
+
   </Routes>
   </BrowserRouter>
 );
